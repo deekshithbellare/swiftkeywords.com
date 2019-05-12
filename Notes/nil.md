@@ -4,7 +4,7 @@
 nil cannot be used with nonoptional constants and variables
 
 ```
-class Tweet {
-let maximumCharacters:Int = 280
+class Post {
+var comments:[Comment]?
 }
 ```
